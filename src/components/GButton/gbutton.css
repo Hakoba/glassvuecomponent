@@ -1,7 +1,6 @@
 @import "@css/main.css";
 
 .g-button {
-  /* font-family: Hack, monospace; */
   background: $main;
   color: #ffffff;
   cursor: pointer;
@@ -11,6 +10,9 @@
   transition: all 0.5s;
   border-radius: 19px;
   width: auto;
+  border: none;
+  outline: 0;
+  box-sizing: border-box;
   position: relative;
   &::after {
     content: "🗿";
