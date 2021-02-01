@@ -1,19 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld />
-  <TestWorld />
+  <div>
+    <GButton>asdasdasdasdas</GButton>
+  </div>
 </template>
 
 <script>
-import TestWorld from "./components/testworld/TestWorld.vue";
-import HelloWorld from "./components/helloworld/HelloWorld.vue";
+import GButton from "./components/GButton/GButton.vue";
 
 export default {
   name: "App",
   components: {
-    TestWorld,
-    HelloWorld
-  }
+    GButton,
+  },
 };
 </script>
 
