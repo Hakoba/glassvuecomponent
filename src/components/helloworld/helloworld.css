@@ -1,0 +1,12 @@
+@import "@css/main.css";
+
+.highlight1 {
+    color: $red;
+}
+
+.imgtest {
+  background-image: url("../../assets/logo.png");
+  background-size: 100%;
+  width: 100px;
+  height: 100px;
+}
