@@ -1,30 +1,27 @@
 <template>
   <div class="hello">
-    <span
-      >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam a
-      reiciendis repudiandae veniam incidunt quia aspernatur laboriosam magnam,
-      natus eligendi excepturi eveniet nihil nostrum praesentium animi inventore
-      quidem aut. Nostrum vero nulla tempore a!</span
-    >
+    <h1 class="highlight1">{{ textmsg }}</h1>
+    <div class="imgtest"></div>
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "HelloWorld",
-  emits: {
-    click: null
-  },
   props: {
-    gray: {
-      type: Boolean,
-      default: false
-    }
+    msg: String
+  },
+  setup() {
+    const textmsg = "I am Hello World Component";
+    return {
+      textmsg
+    };
   }
 });
 </script>
+
 <style lang="css" scoped>
 @import "./helloworld.css";
 </style>

@@ -1,34 +1,63 @@
-# glmrf
+# vue 3 Component Library BoilerPlate
+
+
+**Technology Used:**\
+[Vuejs 3.0](https://github.com/vuejs/vue-next)\
+[Typescript](https://github.com/microsoft/TypeScript)\
+[Rollup](https://github.com/rollup/rollup)
 
 ## Project setup
+Please follow below mentioned step to run this project:
+
+- Clone the repo
+```shell
+https://github.com/shubhadip/vue3-component-library
 ```
-npm install
+
+### Run
+```
+yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+yarn build
 ```
 
-### Run your unit tests
+### Build Library
 ```
-npm run test:unit
+yarn build:js
 ```
 
-### Run your end-to-end tests
+### Build Library With Separate Css file
 ```
-npm run test:e2e
+yarn build:js_css
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Usage Of Components Built
+**As Component**
+```
+  import { TestWorld } from 'vue3-component-library/dist/esm/testworld';
+  ...
+  components:{
+    TestWorld
+  }
+```
+
+**As Plugin**
+```
+  import { TestWorld } from 'vue3-component-library';
+    ...
+  app.use(TestWorld)
+```
