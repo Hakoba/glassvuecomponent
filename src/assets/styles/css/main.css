@@ -2,3 +2,19 @@ $main: #3DA5D9;
 $yellow: yellow;
 $blue: blue;
 $green: green;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.d-flex{
+    display: flex;
+
+}
+.direction-column{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}

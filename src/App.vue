@@ -1,7 +1,15 @@
 <template>
-  <div>
-    <GButton>asdasdasdasdas</GButton>
-  </div>
+  <section>
+    <div class="d-flex direction-column">
+
+    <div>
+      <h1>Button</h1>
+      <GButton>Button text</GButton>
+    </div>
+     
+    </div>
+   
+  </section>
 </template>
 
 <script>
@@ -16,12 +24,17 @@ export default {
 </script>
 
 <style>
-#app {
+@import "@css/main.css";
+
+
+section {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #ff4f8b, #dff1ff);
 }
 </style>
