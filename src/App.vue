@@ -4,7 +4,11 @@
 
     <div>
       <h1>Button</h1>
-      <GButton>Button text</GButton>
+      <g-button>Button text</g-button>
+    </div>
+     <div>
+      <h1>Card</h1>
+      <g-card height="340px" width="500px">Button text</g-card>
     </div>
      
     </div>
@@ -14,11 +18,14 @@
 
 <script>
 import GButton from "./components/GButton/GButton.vue";
+import GCard from "./components/GCard/GCard.vue";
 
 export default {
   name: "App",
   components: {
     GButton,
+    GCard,
+    
   },
 };
 </script>
